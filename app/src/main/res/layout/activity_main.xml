@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Gradient Background -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#FFFFFF">
+
+        <!-- Main Box -->
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="420dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="25dp">
+
+            <!-- Hello Text -->
+            <TextView
+                android:id="@+id/txtHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#6A1B9A"
+                android:layout_marginTop="40dp"/>
+
+            <!-- Name Input -->
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Name"
+                android:textSize="18sp"
+                android:layout_marginTop="60dp"
+                android:padding="12dp"
+                android:backgroundTint="#7B1FA2"/>
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#7B1FA2"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
