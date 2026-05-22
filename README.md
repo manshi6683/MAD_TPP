@@ -50,7 +50,7 @@ This project is designed as a beginner-friendly Android application to understan
 3️⃣ App displays:
 
 ```text
-Hello, UserName
+Hello UserName
 ```
 
 ---
@@ -89,7 +89,7 @@ Hello_App/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone [https://github.com/manshi6683/Hello_App_TPP.git]
+git clone https://github.com/manshi6683/Hello_App_TPP.git
 ```
 
 ---
