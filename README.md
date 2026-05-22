@@ -1,13 +1,12 @@
-# 📱 MAD_TPP - Mobile Application Development Project
+# 🌟 Hello App - Android Demo Application
 
 <div align="center">
 
 ![Android](https://img.shields.io/badge/Android-Studio-green?style=for-the-badge&logo=android)
 ![Kotlin](https://img.shields.io/badge/Kotlin-Mobile%20Development-purple?style=for-the-badge&logo=kotlin)
-![Gradle](https://img.shields.io/badge/Gradle-Build%20System-blue?style=for-the-badge&logo=gradle)
 ![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
-<h3>🚀 Modern Android Application Development Project using Kotlin & Android Studio</h3>
+<h3>📱 A Simple Android Application that Greets Users with a Personalized Hello Message</h3>
 
 </div>
 
@@ -15,32 +14,44 @@
 
 # 📌 Project Overview
 
-This repository contains a Mobile Application Development project built using **Kotlin** and **Android Studio**.
+Hello App is a simple Android application developed using **Kotlin** and **Android Studio**.
 
-The project demonstrates practical implementation of:
+The app allows users to:
 
-- 📱 Android UI Design
-- 🎨 Modern XML Layouts
-- ⚡ Kotlin Programming
-- 🔗 Activity Navigation
-- 🧮 Calculator Logic
-- 🔢 Mathematical Operations
-- 📲 Mobile Application Development Concepts
+- Enter their name
+- Click a button
+- Instantly receive a personalized greeting message
 
-The application is designed with a clean user interface and focuses on beginner-to-intermediate Android development concepts.
+This project is designed as a beginner-friendly Android application to understand the basics of:
+
+- Android UI Design
+- User Input Handling
+- Button Click Events
+- Text Display Operations
+- Kotlin Fundamentals
 
 ---
 
-# 🚀 Key Features
+# ✨ Features
 
-✔️ Modern Android UI Design  
-✔️ Responsive XML Layouts  
-✔️ Calculator Functionality  
-✔️ Factorial Number Calculation  
-✔️ Prime Number Checker  
-✔️ Multiple Activity Navigation  
-✔️ Clean and Structured Kotlin Code  
-✔️ Beginner-Friendly Android Project Structure  
+✔️ Clean and simple user interface  
+✔️ User-friendly design  
+✔️ Real-time greeting generation  
+✔️ Beginner-friendly Android project  
+✔️ Lightweight and fast application  
+✔️ Built using Kotlin and XML  
+
+---
+
+# 📱 Application Workflow
+
+1️⃣ User enters their name in the input field  
+2️⃣ User clicks the button  
+3️⃣ App displays:
+
+```text
+Hello, UserName
+```
 
 ---
 
@@ -48,25 +59,19 @@ The application is designed with a clean user interface and focuses on beginner-
 
 | Technology | Purpose |
 |------------|---------|
-| Kotlin | Core Android Development |
-| XML | User Interface Design |
-| Android Studio | IDE for Development |
-| Gradle | Build Automation |
-| Material Design | UI Components & Styling |
+| Kotlin | Application Logic |
+| XML | UI Design |
+| Android Studio | Development Environment |
+| Gradle | Build System |
 
 ---
 
 # 📂 Project Structure
 
 ```bash
-MAD_TPP/
+Hello_App/
 │
 ├── app/
-│   ├── src/
-│   ├── manifests/
-│   ├── java/
-│   └── res/
-│
 ├── gradle/
 ├── build.gradle.kts
 ├── settings.gradle.kts
@@ -79,62 +84,12 @@ MAD_TPP/
 
 ---
 
-# ✨ Application Modules
-
-## 🧮 Calculator Module
-
-### Features
-
-- Perform basic arithmetic operations
-- Clean calculator interface
-- Responsive button layouts
-- User-friendly design
-
-### Functionalities
-
-- Addition
-- Subtraction
-- Multiplication
-- Division
-
----
-
-## 🔢 Prime Number Checker
-
-### Features
-
-- Check whether a number is prime
-- Display result instantly
-- Simple and interactive interface
-
----
-
-## 📈 Factorial Calculator
-
-### Features
-
-- Calculate factorial of numbers
-- Efficient mathematical logic
-- Easy-to-use UI
-
----
-
-# 🎨 UI & Design Highlights
-
-- Modern minimal interface
-- Clean white and purple theme
-- Material Design principles
-- Responsive layouts
-- User-friendly navigation
-
----
-
-# ⚙️ Installation & Setup
+# 🚀 Getting Started
 
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/MAD_TPP.git
+git clone https://github.com/your-username/Hello_App.git
 ```
 
 ---
@@ -143,49 +98,55 @@ git clone https://github.com/your-username/MAD_TPP.git
 
 - Open Android Studio
 - Click on **Open Project**
-- Select the cloned project folder
+- Select the project folder
 
 ---
 
-## 3️⃣ Sync Gradle
+## 3️⃣ Run the Application
 
-Allow Android Studio to:
-
-- Download dependencies
-- Sync Gradle files
-- Build the project automatically
+- Connect an Android device or start an emulator
+- Click ▶️ Run button in Android Studio
 
 ---
 
-## 4️⃣ Run the Application
+# 📸 App Functionality
 
-- Connect Android device or emulator
-- Click ▶️ Run Button
-- Launch the application
+### ✨ Input
 
----
+User enters their name into the text field.
 
-# 📚 Concepts Covered
+### ✨ Output
 
-- Android Activities
-- Intent Navigation
-- XML Layout Design
-- Event Handling
-- Kotlin Functions
-- User Input Handling
-- Mobile UI Development
-- Android Project Structure
+The app displays a personalized greeting message.
+
+Example:
+
+```text
+Hello, Manshi
+```
 
 ---
 
-# 🚀 Future Improvements
+# 🎯 Learning Outcomes
 
-- 🌙 Dark Mode Support
-- 🧠 Scientific Calculator
-- 📊 Advanced Mathematical Operations
-- 🎨 Improved Animations
-- ☁️ Firebase Integration
-- 📱 Better Responsive UI
+Through this project, you can learn:
+
+- Android Studio basics
+- Kotlin programming fundamentals
+- XML layout design
+- Handling user input
+- Button click events
+- Updating TextView dynamically
+
+---
+
+# 🔥 Future Improvements
+
+- 🎨 Add modern UI design
+- 🌙 Add Dark Mode
+- 🖼️ Add animations
+- 🔊 Add voice greeting feature
+- 🌐 Multi-language support
 
 ---
 
@@ -195,33 +156,21 @@ Allow Android Studio to:
 
 🎓 B.Tech Student  
 💻 Android & Web Development Enthusiast  
-📚 Learning Mobile App Development, Data Science & Modern Technologies  
-🚀 Passionate about Building Real-World Tech Projects
+📚 Learning Kotlin, Python, and Modern Technologies  
+🚀 Passionate about Building Creative and Practical Applications
 
 ---
 
 # ⭐ Support
 
-If you found this project useful:
+If you like this project:
 
 - ⭐ Star this repository
 - 🍴 Fork the project
 - 📢 Share with others
-- 💻 Contribute to improvements
 
 ---
 
 # 📜 License
 
 This project is created for educational and learning purposes.
-
----
-
-# 🔗 Project Configuration Files
-
-The project also includes:
-
-- `.gitignore` for version control configuration :contentReference[oaicite:0]{index=0}
-- `gradle.properties` for Gradle build settings :contentReference[oaicite:1]{index=1}
-- `local.properties` for Android SDK configuration :contentReference[oaicite:2]{index=2}
-- Initial README project title configuration :contentReference[oaicite:3]{index=3}
