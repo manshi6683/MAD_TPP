@@ -89,7 +89,7 @@ Hello_App/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/Hello_App.git](https://github.com/manshi6683/MAD_TPP.git)
+git clone [https://github.com/manshi6683/Hello_App_TPP.git]
 ```
 
 ---
